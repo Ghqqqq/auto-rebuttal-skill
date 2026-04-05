@@ -24,6 +24,7 @@ Read references only as needed:
 - raw reviews or follow-up comments
 - venue constraints if known
 - approved evidence and approved promises, if any
+- approved references or candidate prior-work sources, if any
 
 If a critical venue rule is missing, prefer a conservative text-only draft and record the assumption in `self_report`.
 
@@ -32,21 +33,22 @@ If a critical venue rule is missing, prefer a conservative text-only draft and r
 1. Decompose the review text into a reviewer-topic map before drafting: for each reviewer, split every substantive concern into small topics.
 2. Keep the topic granularity tight: one topic per distinct objection, or one tightly coupled pair only when the evidence is genuinely shared.
 3. Build an evidence inventory before drafting.
-4. For each topic, choose a response mode that matches the evidence strength.
-5. For score-sensitive technical blockers, draft a minimal technical bridge before adding any revision promise.
-6. For novelty, metric, and proof disputes, make the distinction structure explicit instead of implying it.
-7. Plan the structure as reviewer-specific replies only. Inside each reviewer section, answer by topic with bold topic headings.
-8. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
-9. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
-10. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
-11. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
-12. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
-13. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
-14. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
-15. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
-16. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
-17. Produce the required output artifacts.
-18. Run the self-check before finalizing.
+4. Mark cite-worthy topics: if a technical or theoretical objection can be answered partly by noting that a nearby work uses the same assumption, tool, or technique, record that candidate support.
+5. For each topic, choose a response mode that matches the evidence strength.
+6. For score-sensitive technical blockers, draft a minimal technical bridge before adding any revision promise.
+7. For novelty, metric, and proof disputes, make the distinction structure explicit instead of implying it.
+8. Plan the structure as reviewer-specific replies only. Inside each reviewer section, answer by topic with bold topic headings. If citations are used, append a short final `References` section after all reviewer replies.
+9. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
+10. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
+11. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
+12. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
+13. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
+14. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
+15. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
+16. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
+17. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
+18. Produce the required output artifacts.
+19. Run the self-check before finalizing.
 
 ## Evidence Inventory
 
@@ -79,6 +81,10 @@ Return all four sections:
 
 Inside each reviewer section, use bold topic headings such as `**Context Distribution Assumption**` or `**Proof Validity Under Adaptive Sampling**`.
 
+If citations are used, put only lightweight citation markers in the body, and place the full entries in a final `References` section at the end of `response_draft`.
+
+Use numbered markers such as `[1]` in the body and format the final entries as short bibliography lines like `[1] Author(s). Title. Venue, Year.`
+
 `self_report` should include:
 
 - assumptions made
@@ -90,6 +96,11 @@ Inside each reviewer section, use bold topic headings such as `**Context Distrib
 - Answer every substantive reviewer concern.
 - Start by splitting concerns into reviewer-specific topics before drafting prose.
 - Do not invent experiments, citations, derivations, numbers, or promises.
+- Use citations sparingly and only when they directly help answer a technical, theoretical, or prior-work challenge.
+- Only cite works already available in the current paper, the review bundle, user-provided materials, or from an explicitly user-approved literature search.
+- When a prior work uses the same assumption, proof tool, or technical device under dispute, a light in-body citation is allowed to stabilize the answer.
+- Do not turn the rebuttal into a literature survey; one light citation is usually enough for a topic.
+- If citations are used, collect them in one short final `References` section with numbered entries in `[1] ...` style.
 - Do not hide a weak point behind gratitude or vague future clarification.
 - Do not lead a major technical answer with “we will clarify”; lead with the best current answer you can support now.
 - Do not concede more than the evidence requires.
@@ -152,3 +163,4 @@ Before finalizing, verify:
 18. Reviewer specificity: the reply is organized reviewer-by-reviewer, not as one global answer.
 19. Topic visibility: each reviewer section uses bold topic headings and does not merge unrelated concerns.
 20. Assumption defense strength: unusual assumptions are defended as bounded, comparable, or estimable when support exists, not only described.
+21. Citation discipline: any citation used is relevant, source-backed, lightweight in the body, and fully listed in a final `References` section.

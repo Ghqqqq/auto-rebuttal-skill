@@ -40,6 +40,9 @@ Check these before finalizing.
 - Isolated-assumption defense: explaining why an assumption appears without showing why it is comparable, estimable, or practically survivable.
 - Empty extension sketch: calling an extension natural without naming any operational consequence.
 - Metric flattening: erasing a meaningful distinction between an internal operational quantity and a theorem-level quantity in the name of simplification.
+- Citation dumping: adding several references where one light citation would do.
+- Unsupported citation: citing a work not available in the current materials or not verified through an explicitly approved search.
+- Dangling citation: using `[1]` in the body without a final `References` entry.
 - Compression damage: cutting the direct answer while preserving politeness.
 
 If an answer feels polite but not score-changing, it is probably too weak.

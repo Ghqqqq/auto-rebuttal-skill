@@ -31,6 +31,8 @@ For proof-validity, adaptive-sampling, or concentration objections, add one more
 
 5. Name the proof mechanism or tool class when supportable and state whether it preserves the qualitative rate or only adds a bounded correction term.
 
+If the same assumption or tool already appears in nearby work and that fact is available in the current materials, a light citation can be added to stabilize the answer.
+
 ## Assumption Framing
 
 Use when the reviewer questions a non-standard or potentially unrealistic assumption.
@@ -43,6 +45,8 @@ Pattern:
 4. Bound the conclusion: current result, plausible extension, or future work.
 
 When support exists, include at least one stabilizer: nearby precedent, estimability, or an already-used practical surrogate.
+
+If nearby precedent is the strongest stabilizer, mention it briefly in the body and place the full citation in the final `References` section.
 
 ## Prior-Work Delta
 
@@ -64,6 +68,8 @@ Good comparison axes include:
 - optimization/control mechanism
 - guarantee type
 - terminal versus anytime guarantees
+
+When a single cited paper is enough to ground one of the comparison axes, prefer one precise citation over a long citation list.
 
 ## Evidence Reinforcement
 
@@ -115,6 +121,24 @@ Prefer manuscript-facing actions over abstract promises. Good revision actions i
 - notation alignment between sections
 - an added proof sketch step or concentration argument
 - a paragraph clarifying the theory/practice split
+
+## Light Citation Support
+
+Use when a technical or theoretical objection becomes easier to answer by noting that a nearby work also uses the same assumption, proof tool, or modeling device.
+
+Pattern:
+
+1. Answer the objection directly.
+2. State the role of the disputed assumption or tool.
+3. Briefly note that nearby work also uses it, with a lightweight citation marker if supported.
+4. Put the full bibliographic entry in a final `References` section.
+
+This pattern is for stabilization, not for literature dumping.
+
+Preferred form:
+
+- In body: `A similar assumption also appears in nearby work [1].`
+- At end: `[1] Author(s). Title. Venue, Year.`
 
 ## Metric Clarification
 

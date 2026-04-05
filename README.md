@@ -16,6 +16,7 @@ It is designed for cases where:
 - answer each topic under a bold heading
 - separate current evidence, revision commitments, and future work
 - preserve distinctions in novelty, metrics, proofs, and assumptions
+- allow lightweight references when they directly stabilize a technical or theoretical answer
 - keep replies grounded and concise under tight rebuttal budgets
 
 ## Repository Layout
@@ -36,6 +37,9 @@ The skill produces four sections:
 4. `self_report`
 
 Only `response_draft` is meant for the submission system. The other sections are drafting scaffolding.
+
+When helpful, `response_draft` may end with a short `References` section. The body should use citations sparingly.
+Use numbered markers such as `[1]` in the body and short final entries like `[1] Author(s). Title. Venue, Year.`
 
 ## Recommended Usage
 
