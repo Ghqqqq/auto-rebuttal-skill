@@ -25,7 +25,6 @@ It is designed for cases where:
 - [references/anti-patterns.md](./references/anti-patterns.md): failure modes to avoid
 - [references/issue-taxonomy.md](./references/issue-taxonomy.md): concern decomposition guide
 - [references/length-and-budgeting.md](./references/length-and-budgeting.md): compression and budgeting rules
-- [examples/openreview-sample-response.md](./examples/openreview-sample-response.md): sample reviewer-structured output
 
 ## Expected Output Shape
 
