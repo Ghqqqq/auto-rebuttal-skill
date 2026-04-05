@@ -105,19 +105,6 @@ Pattern:
 2. Concrete evidence.
 3. Why that evidence matters for the paper's claim.
 
-## Host-Method Grounding
-
-Use when a reviewer asks why some signal, assumption, or empirical finding should be integrated into the main method at all.
-
-Pattern:
-
-1. Name the host method's actual job.
-2. State which core object of that method changes because of the disputed ingredient.
-3. Explain why that change improves the host method's decision rule, objective, backup, or update rather than merely adding a useful feature.
-4. Bound the claim so the reviewer can see the integration is principled, not arbitrary.
-
-This pattern is especially useful for “why put X into RL?” or “why does this belong in the optimization layer?” objections.
-
 ## Narrow Concession
 
 Use when the reviewer is partly right.
