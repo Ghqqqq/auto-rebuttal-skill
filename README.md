@@ -17,6 +17,7 @@ It is designed for cases where:
 - separate current evidence, revision commitments, and future work
 - preserve distinctions in novelty, metrics, proofs, and assumptions
 - allow lightweight references when they directly stabilize a technical or theoretical answer
+- turn assumption-practicality objections into theory-plus-implementation answers when the evidence allows it
 - keep replies grounded and concise under tight rebuttal budgets
 
 ## Repository Layout

@@ -24,6 +24,7 @@ Check these before finalizing.
 - Framing-only paragraph: a paragraph with gratitude, positioning, or revision promises but no mechanism sentence.
 - Abstract clarification promise: saying the draft will be “more formal” or “clearer” without naming a manuscript-level repair.
 - Theory-only answer: defending an idealized assumption without explaining the practical surrogate or implementation interpretation when one exists.
+- Practicality blur: answering a practicality objection with only theorem-level motivation and no operational path, estimation strategy, or empirical support despite having such support in the materials.
 - Reviewer-update gap: giving a correct technical answer but never saying why the objection is now bounded or less score-relevant.
 - Bundle smearing: answering several reviewer objections in one paragraph without leaving a visible mapping from objection to answer.
 - Over-merged synthesis: using a shared opener or thematic grouping to the point that reviewer-specific blockers lose their local answers.

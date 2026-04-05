@@ -48,6 +48,28 @@ When support exists, include at least one stabilizer: nearby precedent, estimabi
 
 If nearby precedent is the strongest stabilizer, mention it briefly in the body and place the full citation in the final `References` section.
 
+## Practicality of Assumptions
+
+Use when the reviewer is not only questioning whether an assumption is theoretically needed, but also whether it is operationally realistic or deployable.
+
+Pattern:
+
+1. State the theoretical role of the assumption or idealized quantity.
+2. Say how the needed quantity is computed or approximated when it is known.
+3. Say what plug-in estimate, surrogate, or current-context variant is plausible when it is unknown.
+4. If supported by the current materials, mention whether experiments or implementation notes already show that the surrogate works well in practice.
+5. State the clean theoretical consequence of replacing the idealized object, such as an added estimation-error term or an extra regularity condition.
+
+Preferred content when support exists:
+
+- exact computation or numerical integration when tractable
+- Monte Carlo approximation when the expectation is the bottleneck
+- estimate-from-data or plug-in distribution strategies when the object is unknown
+- one light precedent citation if nearby work estimates the same kind of quantity
+- one sentence that the controller logic survives even if the analysis picks up extra error terms
+
+Do not pad this pattern with generic “practicality” language. The answer should make the reviewer feel that the implementation path is concrete.
+
 ## Prior-Work Delta
 
 Use when a reviewer claims missing related work or weak novelty positioning.
@@ -227,6 +249,8 @@ Pattern:
 2. State the practical surrogate or approximation.
 3. Explain what remains empirically or theoretically supported under that surrogate.
 4. Name the paper text that should make this split explicit.
+
+When the reviewer is explicitly asking whether the assumption is practical, prefer `Practicality of Assumptions` over this shorter pattern.
 
 ## Formality Repair
 

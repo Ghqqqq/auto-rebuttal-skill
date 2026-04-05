@@ -113,6 +113,7 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - For assumptions, theorem doubts, and applicability questions, try to answer: why it is needed, what it buys, and what changes if it is relaxed.
 - For assumption challenges, classify the assumption if possible: essential to the current guarantee, common in prior formulations, or replaceable at extra cost.
 - For unusual-assumption challenges, say not only why the assumption appears, but also why it is not isolated or fatal: whether nearby work uses or estimates something similar, what practical surrogate the paper already uses or could plausibly use, and what changes if that surrogate replaces the formal object.
+- For practicality-of-assumption challenges, do not stop at the theory/practice split. When support exists, also say how the relevant quantity is computed when known, what plug-in or estimation strategy is plausible when unknown, whether the paper already has empirical support for a surrogate, and what extra error term or assumption the surrogate would introduce.
 - For novelty or missing-related-work disputes, compare against prior work along explicit axes inside the rebuttal itself instead of saying only “we will strengthen positioning.”
 - For metric or notation disputes, state which quantity is claimed now, how it relates to the reviewer's quantity, and where the paper text should align.
 - Do not flatten two meaningfully different quantities into one summary if the paper relies on both; define both roles and their relationship.
@@ -164,3 +165,4 @@ Before finalizing, verify:
 19. Topic visibility: each reviewer section uses bold topic headings and does not merge unrelated concerns.
 20. Assumption defense strength: unusual assumptions are defended as bounded, comparable, or estimable when support exists, not only described.
 21. Citation discipline: any citation used is relevant, source-backed, lightweight in the body, and fully listed in a final `References` section.
+22. Practicality depth: practical-assumption replies include an operational path or empirical support when the current materials support it, not only a theoretical explanation.
