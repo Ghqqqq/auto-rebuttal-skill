@@ -10,6 +10,8 @@ Check these before finalizing.
 - Over-concession: admitting a broader weakness than the review supports.
 - Reviewer-frame concession: accepting the reviewer's broader novelty framing before restating the paper's actual claim, and then conceding against that inflated frame.
 - Reviewer-frame correction: answering a novelty concern by sounding like the reviewer simply misread the paper, instead of acknowledging the connection and then clarifying the paper's actual claim calmly.
+- Self-minimizing novelty frame: describing the contribution mainly as “narrower” or “more specific” than prior work instead of positively stating what the paper newly contributes.
+- Broad-topic novelty concession: opening a novelty reply by judging whether the broad topic or area is “new,” instead of directly contrasting what prior work does and what this paper contributes.
 - Axis-free positioning: saying prior work is different without naming the dimensions of difference.
 - Topic-label novelty: treating shared keywords or problem labels as if they settle the novelty question without comparing the role the idea plays in each method.
 - Metric blur: mentioning notation or violation issues without explicitly separating the competing quantities.

@@ -82,12 +82,11 @@ Use when a reviewer claims missing related work or weak novelty positioning.
 
 Pattern:
 
-1. Acknowledge the missing or relevant prior work, or the real overlap the reviewer is pointing to.
-2. Gently clarify if the reviewer's framing is broader than the paper's actual claim.
-3. State the paper's actual novelty claim at the right scope.
-4. Compare along 2-3 explicit axes.
-5. State the paper's remaining contribution after the comparison.
-6. Then mention the revision action, such as a comparison table or added discussion.
+1. Name the relevant prior work or overlap directly.
+2. State positively what this paper specifically contributes.
+3. Compare along 2-3 explicit axes.
+4. State the paper's remaining contribution after the comparison.
+5. Then mention the revision action, such as a comparison table or added discussion.
 
 If a genuinely relevant paper or analogy was omitted, say so plainly before moving to the distinctions.
 
@@ -103,7 +102,7 @@ When a single cited paper is enough to ground one of the comparison axes, prefer
 
 When overlap is real but the reviewer is over-collapsing the contribution, compare the role of the shared idea in each work, not just whether both papers mention the same topic.
 
-Do not begin with “we agree this is not novel” unless that broad concession is exactly what the paper already claims. Prefer: acknowledge the relevant connection, clarify the scope of the claim without sounding corrective, then state what the paper actually contributes.
+Do not begin with “we agree this is not novel,” “this broad topic is not new,” or “our contribution is narrower.” Prefer the simpler structure: prior work studies Y, while this paper contributes X.
 
 ## Evidence Reinforcement
 
