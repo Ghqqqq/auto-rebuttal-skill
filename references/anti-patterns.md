@@ -8,6 +8,7 @@ Check these before finalizing.
 - Low-information revision promise: saying "we will clarify" without giving the clarification now.
 - Over-concession: admitting a broader weakness than the review supports.
 - Reviewer-frame concession: accepting the reviewer's broader novelty framing before restating the paper's actual claim, and then conceding against that inflated frame.
+- Reviewer-frame correction: answering a novelty concern by sounding like the reviewer simply misread the paper, instead of acknowledging the connection and then clarifying the paper's actual claim calmly.
 - Axis-free positioning: saying prior work is different without naming the dimensions of difference.
 - Topic-label novelty: treating shared keywords or problem labels as if they settle the novelty question without comparing the role the idea plays in each method.
 - Metric blur: mentioning notation or violation issues without explicitly separating the competing quantities.
