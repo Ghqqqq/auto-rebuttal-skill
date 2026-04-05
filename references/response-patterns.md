@@ -93,6 +93,8 @@ Good comparison axes include:
 
 When a single cited paper is enough to ground one of the comparison axes, prefer one precise citation over a long citation list.
 
+When overlap is real but the reviewer is over-collapsing the contribution, compare the role of the shared idea in each work, not just whether both papers mention the same topic.
+
 ## Evidence Reinforcement
 
 Use when the claim is supportable now and the reviewer needs more concrete backing.
@@ -102,6 +104,19 @@ Pattern:
 1. Direct answer.
 2. Concrete evidence.
 3. Why that evidence matters for the paper's claim.
+
+## Host-Method Grounding
+
+Use when a reviewer asks why some signal, assumption, or empirical finding should be integrated into the main method at all.
+
+Pattern:
+
+1. Name the host method's actual job.
+2. State which core object of that method changes because of the disputed ingredient.
+3. Explain why that change improves the host method's decision rule, objective, backup, or update rather than merely adding a useful feature.
+4. Bound the claim so the reviewer can see the integration is principled, not arbitrary.
+
+This pattern is especially useful for “why put X into RL?” or “why does this belong in the optimization layer?” objections.
 
 ## Narrow Concession
 
@@ -185,6 +200,19 @@ Pattern:
 2. Address the request concretely.
 3. Add a concrete reassurance or practical clarification when available.
 4. Reinforce the paper's contribution without overselling.
+
+## Scope and Magnitude Interpretation
+
+Use when a reviewer says the baseline set is weak, the gains are small, or the evaluation seems incomplete.
+
+Pattern:
+
+1. State what the current evaluation already covers.
+2. State the relevant benchmark, simulator, data, or interface boundary without sounding evasive.
+3. Explain why the observed gain size should be concentrated, modest, or heterogeneous based on what part of the pipeline the method actually changes.
+4. Then name the clarifying manuscript change or bounded additional evaluation if supported.
+
+This pattern should explain both the evidence boundary and the mechanism-level reason behind the result size.
 
 ## Analogy Acknowledge and Differentiate
 

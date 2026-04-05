@@ -18,6 +18,7 @@ It is designed for cases where:
 - preserve distinctions in novelty, metrics, proofs, and assumptions
 - allow lightweight references when they directly stabilize a technical or theoretical answer
 - turn assumption-practicality objections into theory-plus-implementation answers when the evidence allows it
+- answer novelty, motivation, and evaluation objections at the right level: role, mechanism, and scope
 - keep replies grounded and concise under tight rebuttal budgets
 
 ## Repository Layout

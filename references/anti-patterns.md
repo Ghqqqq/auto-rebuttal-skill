@@ -8,6 +8,7 @@ Check these before finalizing.
 - Low-information revision promise: saying "we will clarify" without giving the clarification now.
 - Over-concession: admitting a broader weakness than the review supports.
 - Axis-free positioning: saying prior work is different without naming the dimensions of difference.
+- Topic-label novelty: treating shared keywords or problem labels as if they settle the novelty question without comparing the role the idea plays in each method.
 - Metric blur: mentioning notation or violation issues without explicitly separating the competing quantities.
 - Proof blur: treating all proof objections as “needs more detail” instead of separating the contested layers.
 - Scope-only technical reply: answering “this is out of scope” when the reviewer actually asked for a mechanism explanation.
@@ -19,6 +20,7 @@ Check these before finalizing.
 - Orphaned evidence: mentioning evidence without tying it to the reviewer concern.
 - Orphaned answer: making a claim without showing why the reviewer should update.
 - Orphaned clarification: giving a technical clarification without reconnecting it to what the paper still contributes.
+- Feature-injection defense: saying a signal or finding is “important” without explaining how it changes the host method's objective, update, credit assignment, or decision rule.
 - Friendly-reviewer neglect: ignoring positive reviewers and losing support.
 - Flat budgeting: giving equal space to easy comments and score-moving blockers.
 - Framing-only paragraph: a paragraph with gratitude, positioning, or revision promises but no mechanism sentence.
@@ -30,6 +32,7 @@ Check these before finalizing.
 - Over-merged synthesis: using a shared opener or thematic grouping to the point that reviewer-specific blockers lose their local answers.
 - Follow-up blindness: answering a later-round discussion as if all objections were still equally open.
 - Hollow compression: shortening a blocker reply by deleting the mechanism or the concrete manuscript action while keeping politeness and framing.
+- Scope-free evaluation defense: appealing to benchmark or data limitations without stating what the current evaluation already covers or what exactly the limitation blocks.
 - Example bleed-through: importing domain language, prior-case tactics, or canned contrasts that are not independently grounded in the current paper and reviews.
 - Missing synthesis layer: repeated core blocker across reviewers with no paper-level summary.
 - Scaffolding leakage: internal maps or self-check notes bleeding into the venue-facing rebuttal text.
@@ -45,5 +48,6 @@ Check these before finalizing.
 - Unsupported citation: citing a work not available in the current materials or not verified through an explicitly approved search.
 - Dangling citation: using `[1]` in the body without a final `References` entry.
 - Compression damage: cutting the direct answer while preserving politeness.
+- Percentage-only defense: responding to “the gains are small” by repeating improvement numbers without explaining why the intervention should help at that magnitude or on that subset of backbones.
 
 If an answer feels polite but not score-changing, it is probably too weak.

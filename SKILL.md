@@ -115,6 +115,8 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - For unusual-assumption challenges, say not only why the assumption appears, but also why it is not isolated or fatal: whether nearby work uses or estimates something similar, what practical surrogate the paper already uses or could plausibly use, and what changes if that surrogate replaces the formal object.
 - For practicality-of-assumption challenges, do not stop at the theory/practice split. When support exists, also say how the relevant quantity is computed when known, what plug-in or estimation strategy is plausible when unknown, whether the paper already has empirical support for a surrogate, and what extra error term or assumption the surrogate would introduce.
 - For novelty or missing-related-work disputes, compare against prior work along explicit axes inside the rebuttal itself instead of saying only “we will strengthen positioning.”
+- For novelty disputes, do not stop at topic overlap. Compare the role the shared concept plays in each work: representation versus decision-making, past aggregation versus future credit assignment, prediction versus control, or analysis versus algorithm.
+- For “why integrate X into method Y?” objections, answer at the host-method level. Explain which core object of method `Y` changes because of `X`, such as the objective, state, transition semantics, backup rule, credit assignment, update rule, or constraint accounting.
 - For metric or notation disputes, state which quantity is claimed now, how it relates to the reviewer's quantity, and where the paper text should align.
 - Do not flatten two meaningfully different quantities into one summary if the paper relies on both; define both roles and their relationship.
 - For proof disputes, separate claim layers when relevant: definition level, theorem-statement level, expectation level, realized/high-probability level, or algorithmic layer versus estimation layer.
@@ -123,6 +125,7 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - Do not bury multiple distinct concerns inside one vague paragraph when separate topic headings would make the reply easier to scan.
 - Do not collapse materially different reviewer objections into one shared narrative just because they live in the same theme bucket.
 - If follow-up comments say a prior response did not change the evaluation, do not restate everything; target the unresolved blocker more directly.
+- For evaluation complaints, separate method scope from evidence scope: state what part of the pipeline the method changes, what the current benchmark or data supports, and why that makes the observed gain size, missing baseline class, or robustness boundary plausible.
 - If space is tight, do not compress away the mechanism or the manuscript repair; compress background and transitions first.
 - For extension questions, prefer an extension sketch plus scope boundary over a bare “future work” retreat.
 - When claiming an extension is natural, name at least one operational consequence such as an added queue, a changed theorem scope, or a dependence on the number of constraints or modules.
@@ -166,3 +169,4 @@ Before finalizing, verify:
 20. Assumption defense strength: unusual assumptions are defended as bounded, comparable, or estimable when support exists, not only described.
 21. Citation discipline: any citation used is relevant, source-backed, lightweight in the body, and fully listed in a final `References` section.
 22. Practicality depth: practical-assumption replies include an operational path or empirical support when the current materials support it, not only a theoretical explanation.
+23. Level matching: novelty, motivation, and evaluation objections are answered at the right level of abstraction: role, mechanism, and scope, not just shared topic words or table-number restatement.
