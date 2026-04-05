@@ -14,6 +14,7 @@ It is designed for cases where:
 - split each review into a reviewer-topic map before drafting
 - reply reviewer-by-reviewer
 - answer each topic under a bold heading
+- open each topic with a compressed short answer before expanding into detail
 - separate current evidence, revision commitments, and future work
 - preserve distinctions in novelty, metrics, proofs, and assumptions
 - allow lightweight references when they directly stabilize a technical or theoretical answer

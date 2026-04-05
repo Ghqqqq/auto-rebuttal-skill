@@ -2,6 +2,12 @@
 
 Choose the weakest pattern that still answers the concern honestly.
 
+Default opening rule:
+
+- The first sentence or two of any topic should function as a compressed answer preview.
+- Put the core answer before the explanation, not after it.
+- If the concern is score-moving, let the opening also signal the consequence: what is clarified, what remains valid, or why the blocker is now narrower.
+
 ## Direct Clarification
 
 Use when the paper already contains the answer or the reviewer has misunderstood something.

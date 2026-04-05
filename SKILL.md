@@ -38,17 +38,18 @@ If a critical venue rule is missing, prefer a conservative text-only draft and r
 6. For score-sensitive technical blockers, draft a minimal technical bridge before adding any revision promise.
 7. For novelty, metric, and proof disputes, make the distinction structure explicit instead of implying it.
 8. Plan the structure as reviewer-specific replies only. Inside each reviewer section, answer by topic with bold topic headings. If citations are used, append a short final `References` section after all reviewer replies.
-9. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
-10. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
-11. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
-12. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
-13. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
-14. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
-15. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
-16. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
-17. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
-18. Produce the required output artifacts.
-19. Run the self-check before finalizing.
+9. Start each topic with a compact front-loaded answer sentence or two that already states the main reply and, when relevant, the practical consequence for the concern.
+10. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
+11. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
+12. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
+13. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
+14. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
+15. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
+16. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
+17. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
+18. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
+19. Produce the required output artifacts.
+20. Run the self-check before finalizing.
 
 ## Evidence Inventory
 
@@ -102,6 +103,7 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - Do not turn the rebuttal into a literature survey; one light citation is usually enough for a topic.
 - If citations are used, collect them in one short final `References` section with numbered entries in `[1] ...` style.
 - Do not hide a weak point behind gratitude or vague future clarification.
+- Do not make the reviewer wait through framing or exposition before hearing the answer; the first sentence or two of a topic should already carry the core reply.
 - Do not lead a major technical answer with “we will clarify”; lead with the best current answer you can support now.
 - Do not concede more than the evidence requires.
 - Output reviewer-specific replies only; do not add a standalone general-response block.
@@ -170,3 +172,4 @@ Before finalizing, verify:
 21. Citation discipline: any citation used is relevant, source-backed, lightweight in the body, and fully listed in a final `References` section.
 22. Practicality depth: practical-assumption replies include an operational path or empirical support when the current materials support it, not only a theoretical explanation.
 23. Level matching: novelty, motivation, and evaluation objections are answered at the right level of abstraction: role, mechanism, and scope, not just shared topic words or table-number restatement.
+24. Front-loaded clarity: the opening sentence of each topic gives a compressed short answer that previews the detail that follows, rather than using the opening only for framing or politeness.

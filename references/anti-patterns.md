@@ -4,6 +4,7 @@ Check these before finalizing.
 
 - Empty gratitude: thanks without a real answer.
 - Promise-first response: saying the paper will be clarified before giving the clarification itself.
+- Buried lead: spending the opening sentence or paragraph on framing, politeness, or scene-setting instead of giving the short answer first.
 - Shadow answering: responding to an easier nearby issue instead of the actual objection.
 - Low-information revision promise: saying "we will clarify" without giving the clarification now.
 - Over-concession: admitting a broader weakness than the review supports.
