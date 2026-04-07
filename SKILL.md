@@ -34,22 +34,42 @@ If a critical venue rule is missing, prefer a conservative text-only draft and r
 2. Keep the topic granularity tight: one topic per distinct objection, or one tightly coupled pair only when the evidence is genuinely shared.
 3. Build an evidence inventory before drafting.
 4. Mark cite-worthy topics: if a technical or theoretical objection can be answered partly by noting that a nearby work uses the same assumption, tool, or technique, record that candidate support.
-5. For each topic, choose a response mode that matches the evidence strength.
-6. For score-sensitive technical blockers, draft a minimal technical bridge before adding any revision promise.
-7. For novelty, metric, and proof disputes, make the distinction structure explicit instead of implying it.
-8. Plan the structure as reviewer-specific replies only. Inside each reviewer section, answer by topic with bold topic headings. If citations are used, append a short final `References` section after all reviewer replies.
-9. Start each topic with a compact front-loaded answer sentence or two that already states the main reply and, when relevant, the practical consequence for the concern.
-10. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
-11. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
-12. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
-13. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
-14. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
-15. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
-16. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
-17. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
-18. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
-19. Produce the required output artifacts.
-20. Run the self-check before finalizing.
+5. Triage every topic before drafting: mark it as either `straightforward` or `author-strategy-needed`.
+6. If any topic is `author-strategy-needed` and the author's preferred reply strategy is not already provided, stop before drafting venue-facing prose and ask the author focused strategy questions.
+7. For each `straightforward` topic, choose a response mode that matches the evidence strength.
+8. For score-sensitive technical blockers, draft a minimal technical bridge before adding any revision promise.
+9. For novelty, metric, and proof disputes, make the distinction structure explicit instead of implying it.
+10. Plan the structure as reviewer-specific replies only. Inside each reviewer section, answer by topic with bold topic headings. If citations are used, append a short final `References` section after all reviewer replies.
+11. Start each topic with a compact front-loaded answer sentence or two that already states the main reply and, when relevant, the practical consequence for the concern.
+12. Draft high-risk answers with a concrete micro-structure: direct answer -> mechanism or reason -> scope/tradeoff -> contribution anchor.
+13. When theory uses an idealized object or assumption but practice uses an approximation, answer both layers together: theoretical role, practical surrogate, and what remains guaranteed.
+14. If a reviewer says the paper lacks formality or clarity, convert that into specific manuscript actions such as revised definitions, theorem wording, notation alignment, comparison tables, or proof-step exposition.
+15. Draft with direct answers first, then supporting detail, then the implication for the paper or why the main contribution still stands.
+16. For score-moving blockers, include one decision-relevant sentence that explains why the concern is now bounded or why the core claim still survives.
+17. When a reviewer bundles multiple substantive objections, mirror that bundle in the reply order so each objection has a visible answer slot and a visible topic heading.
+18. If follow-up discussion exists, use it to rebudget the reply: focus on blockers that remain unconvinced and keep satisfied reviewers brief but supported.
+19. Under tight space, compress each major topic to a minimal unit: direct answer, one mechanism sentence, and one concrete manuscript action.
+20. Before finalizing, remove any domain-specific framing that came from a single example rather than from the current paper and reviews.
+21. Produce the required output artifacts.
+22. Run the self-check before finalizing.
+
+## Topic Triage
+
+Classify each topic as one of:
+
+- `straightforward`: the reply can be grounded directly in the current paper materials, approved evidence, or a bounded manuscript clarification, without making a strategic choice on the authors' behalf.
+- `author-strategy-needed`: the reply depends on author preference, strategic positioning, or new commitments that are not determined by the materials alone.
+
+Typical `author-strategy-needed` topics include:
+
+- whether to concede, partially concede, or firmly defend a core claim
+- whether to promise new experiments, ablations, or analyses
+- whether to introduce new external evidence, links, or post-submission results
+- whether to narrow, reframe, or preserve the paper's main novelty or contribution claim
+- whether to answer a score-moving blocker with a strong disagreement, a tradeoff framing, or a retreat to scope
+- any case where multiple viable reply strategies exist and the choice would materially affect the paper's positioning
+
+If in doubt, escalate to the author.
 
 ## Evidence Inventory
 
@@ -65,11 +85,17 @@ Do not blur these categories. Say what is already true now, what will be clarifi
 
 ## Required Output
 
-Return all four sections:
+Normal drafting mode returns four sections:
 
 - `response_draft`
 - `coverage_map`
 - `evidence_map`
+- `self_report`
+
+If any `author-strategy-needed` topic lacks author guidance, do not produce `response_draft`. Instead stop and return:
+
+- `topic_triage`
+- `author_questions`
 - `self_report`
 
 `coverage_map` should show every substantive concern and how it was handled.
@@ -92,10 +118,15 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - unresolved weak spots
 - places where stronger evidence would improve the rebuttal
 
+`author_questions` should ask one focused question per hard topic, with concrete reply options whenever possible.
+
 ## Hard Rules
 
 - Answer every substantive reviewer concern.
 - Start by splitting concerns into reviewer-specific topics before drafting prose.
+- Triage every topic into `straightforward` or `author-strategy-needed` before writing rebuttal prose.
+- If any `author-strategy-needed` topic lacks author guidance, stop and ask the author before drafting venue-facing text.
+- Do not choose a strategic stance on the author's behalf when the materials do not determine whether to defend, concede, reframe, or promise additional work.
 - Do not invent experiments, citations, derivations, numbers, or promises.
 - Use citations sparingly and only when they directly help answer a technical, theoretical, or prior-work challenge.
 - Only cite works already available in the current paper, the review bundle, user-provided materials, or from an explicitly user-approved literature search.
@@ -144,6 +175,7 @@ Use numbered markers such as `[1]` in the body and format the final entries as s
 - Do not tell reviewers what their comments are “really about” instead of answering the comments as written.
 - Reuse structural tactics from prior examples, not their domain terms, citation choices, or sample-specific argumentative habits unless the current evidence independently supports them.
 - If evidence is thin, answer carefully and bound the claim.
+- If evidence is thin and the right reply depends on author preference rather than paper-supported fact, escalate instead of drafting through the uncertainty.
 
 ## Self-Check
 
@@ -173,3 +205,4 @@ Before finalizing, verify:
 22. Practicality depth: practical-assumption replies include an operational path or empirical support when the current materials support it, not only a theoretical explanation.
 23. Level matching: novelty, motivation, and evaluation objections are answered at the right level of abstraction: role, mechanism, and scope, not just shared topic words or table-number restatement.
 24. Front-loaded clarity: the opening sentence of each topic gives a compressed short answer that previews the detail that follows, rather than using the opening only for framing or politeness.
+25. Strategy gate: any hard topic that requires author positioning or new commitments was escalated before rebuttal drafting proceeded.

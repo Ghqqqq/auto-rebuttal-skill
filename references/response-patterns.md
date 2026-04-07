@@ -8,6 +8,8 @@ Default opening rule:
 - Put the core answer before the explanation, not after it.
 - If the concern is score-moving, let the opening also signal the consequence: what is clarified, what remains valid, or why the blocker is now narrower.
 
+Before choosing a response pattern, first decide whether the topic is actually draftable or whether it requires author strategy input.
+
 ## Direct Clarification
 
 Use when the paper already contains the answer or the reviewer has misunderstood something.
@@ -124,6 +126,19 @@ Pattern:
 2. Bound the damage.
 3. Re-state what still holds.
 4. If justified, name the tradeoff rather than leaving the weakness unstructured.
+
+## Author Strategy Escalation
+
+Use when the topic cannot be answered safely without an author decision about stance, promise level, or paper positioning.
+
+Pattern:
+
+1. Name the blocked topic directly.
+2. State why this is strategy-sensitive rather than merely unclear.
+3. Ask one focused question that would unlock the reply.
+4. When helpful, offer 2-3 concrete reply directions instead of an open-ended prompt.
+
+Do not draft venue-facing rebuttal prose for that topic until the author answers.
 
 ## Boundary Setting
 

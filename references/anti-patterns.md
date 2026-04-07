@@ -5,6 +5,7 @@ Check these before finalizing.
 - Empty gratitude: thanks without a real answer.
 - Promise-first response: saying the paper will be clarified before giving the clarification itself.
 - Buried lead: spending the opening sentence or paragraph on framing, politeness, or scene-setting instead of giving the short answer first.
+- Silent strategy guess: drafting through a high-risk topic that depends on author preference, positioning, or new commitments without first consulting the author.
 - Shadow answering: responding to an easier nearby issue instead of the actual objection.
 - Low-information revision promise: saying "we will clarify" without giving the clarification now.
 - Over-concession: admitting a broader weakness than the review supports.
@@ -37,6 +38,7 @@ Check these before finalizing.
 - Follow-up blindness: answering a later-round discussion as if all objections were still equally open.
 - Hollow compression: shortening a blocker reply by deleting the mechanism or the concrete manuscript action while keeping politeness and framing.
 - Scope-free evaluation defense: appealing to benchmark or data limitations without stating what the current evaluation already covers or what exactly the limitation blocks.
+- False straightforwardness: treating a strategic novelty, evaluation, or concession decision as if it were a purely factual clarification.
 - Example bleed-through: importing domain language, prior-case tactics, or canned contrasts that are not independently grounded in the current paper and reviews.
 - Missing synthesis layer: repeated core blocker across reviewers with no paper-level summary.
 - Scaffolding leakage: internal maps or self-check notes bleeding into the venue-facing rebuttal text.
